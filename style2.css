@@ -1,0 +1,48 @@
+p
+{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    text-align: justify;
+    /* text-decoration: underline; */
+}
+
+h2+p
+{
+    font-style: oblique;
+}
+
+h1
+{
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    border : green  1px solid;
+     border-radius: 20px 20px 0px 0px; 
+   /*  box-shadow: 10px 10px 20px black; */
+
+   /* 
+        top: au dessus
+        bottom: en dessous
+        left: gauche
+        right: droite
+   */
+}
+
+h2
+{
+    font-size: 160%;
+    text-align: center;
+}
+
+a
+{
+    /* text-decoration:line-through; */
+    /* text-decoration: overline; */
+    color: green;
+}
+
+ul
+{
+    list-style-type: none;
+}

@@ -1,6 +1,11 @@
 p+h1
 {
-	color: red;
+	color: #fff;
+}
+
+body
+{
+	background-color: #ababab;
 }
 
 .paragraphebleu
