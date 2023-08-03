@@ -1,0 +1,25 @@
+*
+{
+    border: 2px red solid;
+    /* margin: 0px; */
+}
+
+/* 
+    block 
+    p, h1 - h6, ul, li, ol, 
+
+    inline
+    a, img, em, strong, mark, 
+
+    balises universelles
+*/
+
+/* span
+{
+    color: green;
+} */
+
+#text1
+{
+    color: red;
+}

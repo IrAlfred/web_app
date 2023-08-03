@@ -1,4 +1,8 @@
-li.favorite {
+.favorite {
     color: red;
     font-weight: bold;
   }
+li
+{
+    display: block;
+}

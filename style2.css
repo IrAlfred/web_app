@@ -9,19 +9,34 @@ p
     padding: 20px;
     border: 1px solid blue;
 }
+p:hover
+{
+    color: blue;
+    /*font-size: 30px;*/
+}
+
 
 #text1
 {
-    color: white;
+    color: yellow;
     background-image: url('assets/images/charite.jpg');
     background-repeat: no-repeat; /* pas de repetition de l'image */
     /* background-repeat: repeat-x; repetition suivant l'axe des x */
     /* background-repeat: repeat-y;  repetition suivant l'axe des y*/
     background-size: cover; /* Adaptation de l'image de fond au conteneur */
     opacity: 1;
-     height: 400px;
-     /*
-    width: 1600px; */
+    height: 60px;
+    width: 30%;
+
+    min-width: 100px;
+
+    overflow: hidden;
+    
+    /* 
+        hidden: le texte qui dépasse est caché
+        auto: barre de défilement lors du dépassement
+        scroll: barre de défilement même quand il n'y a pas dépassement
+    */
 
 }
 
@@ -51,6 +66,14 @@ h1
    width: 50%;   /* Largeur */
    /* height: 200px; */
    margin: auto;  /* Centrer l'élément */
+
+   box-shadow: 10px -5px 25px red;
+   text-shadow: -2px 2px 1px #000;
+}
+
+h1:hover
+{
+    text-shadow: -2px 2px 1px #000;
 }
 
 h2
@@ -64,6 +87,38 @@ a
     /* text-decoration:line-through; */
     /* text-decoration: overline; */
     color: green;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+a:focus
+{
+    background-color: #ababab;
+}
+
+/* 
+    hover: survole de la souris
+    visited: lien déjà visité
+    active: lors du clic
+    focus: lorsque l'élément a le focus
+
+*/
+
+a:hover
+{
+   /*  color: white;
+    background-color: blue; */
+    /* text-decoration: underline; */
+    border-bottom: 2px green solid;
+
+}
+a:visited
+{
+    color: red;
+}
+a:active
+{
+    background-color: aqua;
 }
 
 ul
