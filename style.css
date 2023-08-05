@@ -16,5 +16,27 @@ body
 
 #citation
 {
-	color: green;
+	color: #000;
+}
+
+.navbar {
+	background-color: #333;
+	padding: 10px;
+}
+
+.section 
+{
+	background-image: url("background.jpg");
+	background-size: cover;
+}
+
+.navbar li 
+{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+a:hover
+{
+	text-decoration: underline;
 }

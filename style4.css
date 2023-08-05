@@ -8,4 +8,49 @@
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
+    text-shadow: 2px 2px 1px yellow;
+}
+
+/* li
+{
+    display: inline-block;
+} */
+/* nav a
+{
+    color: green;
+} */
+
+/* main a
+{
+    display: block;
+} */
+
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    padding: 10px;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    height: 100px;
+    align-items: center;
+    /* align-items: flex-end; */
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li
+{
+    /* padding: 1em; */
+    /* gap: 10px; */
 }
