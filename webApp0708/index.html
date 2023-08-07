@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro formulaires</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulaire</h1>
+    </header>
+    <main>
+        <form action="enregistrement.php" method="POST" enctype="multipart/form-data">
+            <div class="ligne">
+                <label for="nom">Nom</label>
+                <div><input type="text" id="nom" name="nom" placeholder="Entrer votre nom" required maxlength="25" value="Alfred"></div>
+            </div>
+            
+            <div class="ligne">
+                <label for="postnom">Postnom</label>
+                <div>
+                    <input type="text" name="postnom" id="postnom" placeholder="Entrer postnom" required maxlength="25">
+                </div>
+            </div>
+            
+            <div class="ligne">
+                <label for="genre">Genre</label>
+                <label><input type="radio" name="genre"> M</label>
+                <label><input type="radio" name="genre" checked> F</label>
+            </div>
+            <div class="ligne">
+                <label for="nationalite">Nationalité</label>
+                <div>
+                    <select name="nationalite" id="nationalite">
+                        <option value="" disabled selected>= Choisir =</option>
+                        <option value="cd">Congolaise</option>
+                        <option value="ug">Ugandaise</option>
+                        <option value="bu">Burundaise</option>
+                        <option value="fr">Française</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="ligne">
+                <label for="age">Age</label>
+                <div>
+                    <input type="number" name="age" id="age" required>
+                </div>
+            </div>
+            <div class="ligne">
+                <label for="email">Email</label>
+                <div>
+                    <input type="email" name="email" id="email" required>
+                </div>
+            </div>
+            
+            <div class="ligne">
+                <label for="province">Provinces visitées</label>
+                <div>
+                    <label><input type="checkbox" name="province" id="province"> Nord-Kivu</label>
+                    <label><input type="checkbox" name="province" id="province"> Sud-Kivu</label>
+                    <label><input type="checkbox" name="province" id="province"> Maniema</label>
+                    <label><input type="checkbox" name="province" id="province"> Bas-Uélé</label>
+                </div>
+            </div>
+            
+            <div class="ligne">
+                <label for="dateNaiss">Date de Naissance</label>
+                <div>
+                    <input type="date" name="dateNaiss" id="dateNaiss">
+                </div>
+            </div>
+            
+            <div class="ligne ligne-button">
+                <!-- <input type="reset" value="Reinitialiser"> -->
+                <!-- <input type="submit" value="Enregistrer"> -->
+                <button type="reset">Reinitialiser</button>
+                <button type="submit">Envoyer</button>
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>

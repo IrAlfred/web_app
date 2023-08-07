@@ -1,0 +1,55 @@
+input[type="text"], input[type="number"],input[type="date"], input[type="email"]
+{
+    width: 80%;
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 10px;
+}
+select
+{
+    width: 82%;
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 10px;
+}
+form{
+    width: 80%;
+    margin: auto;
+}
+
+.ligne
+{
+    margin-top: 10px;
+}
+
+label{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.ligne div
+{
+    margin-top: 5px;
+}
+
+button[type="submit"]
+{
+    background-color:#1e90ff;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+button[type="reset"]{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.ligne-button
+{
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+}
